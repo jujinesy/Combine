@@ -1,0 +1,12 @@
+32비트 컴퓨터로 해야된다.
+
+$ gcc -g -fno-stack-protector -mpreferred-stack-boundary=2 -o re2 re2.c 로 컴파일
+
+$ gdb re2 로 gdb 하고 아래와같이 옵션을 준다
+set disassembly-flavor intel
+disass main
+
+
+
+
+http://shayete.tistory.com/entry/stack-corruption-%EA%B8%B0%EB%B2%95%EC%97%90-%EB%93%A4%EC%96%B4%EA%B0%80%EA%B8%B0%EC%97%90-%EC%95%9E%EC%84%9C 참고

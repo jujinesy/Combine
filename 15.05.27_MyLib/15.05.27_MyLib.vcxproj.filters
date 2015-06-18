@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x64.asm">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="_MyLib.sln">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="_MyLib_test.vcxproj">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="_MyLib_test.vcxproj.filters">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="LICENSE">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirCrypto.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AKSyncObjs.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="arch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindowsHeader.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CStream.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMessage.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIoHelper.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIoHelperClass.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LeakWatcher.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_test.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="process_tree.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="rc4.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryUtil.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceHelper.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="scm_context.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusCode.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="strtk.hpp">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Wow64Util.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_MyLib_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_asm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_boost.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_boost_asio_timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_boost_bind.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_cpp_class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_registry_util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_std_map.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_test_x64.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCrypto.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AKSyncObjs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMessage.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIoHelper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIoHelperClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="injector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="process_tree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rc4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryUtil.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scm_context.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Wow64Util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..README.txt">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
