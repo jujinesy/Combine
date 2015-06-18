@@ -18,5 +18,8 @@
     <ClCompile Include="Mailslot_Server.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Mailslot_Client.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
