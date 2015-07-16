@@ -1,0 +1,5 @@
+﻿C:\Users\2\AppData\Local\Microsoft\Windows\WebCache
+
+C:\Users\2\Anaconda3\envs\2.7\python.exe main.py WebCacheV01.dat 1.db
+
+python main.py WebCacheV01.dat 1.db
