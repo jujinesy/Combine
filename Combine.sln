@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13.10.24_FileSpy_test", "13
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14.02.20_globalhook_test", "14.02.20_globalhook_test\14.02.20_globalhook_test.vcxproj", "{FC052EE8-A283-4347-9DFE-A4A70D5257F8}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "15.10.02_ESEDatabaseParser+", "15.10.02_ESEDatabaseParser+\15.10.02_ESEDatabaseParser+.pyproj", "{C876E560-4913-427C-B000-63254DFB5083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -377,6 +379,12 @@ Global
 		{FC052EE8-A283-4347-9DFE-A4A70D5257F8}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{FC052EE8-A283-4347-9DFE-A4A70D5257F8}.Release|Win32.ActiveCfg = Release|Win32
 		{FC052EE8-A283-4347-9DFE-A4A70D5257F8}.Release|Win32.Build.0 = Release|Win32
+		{C876E560-4913-427C-B000-63254DFB5083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C876E560-4913-427C-B000-63254DFB5083}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C876E560-4913-427C-B000-63254DFB5083}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C876E560-4913-427C-B000-63254DFB5083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C876E560-4913-427C-B000-63254DFB5083}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C876E560-4913-427C-B000-63254DFB5083}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
