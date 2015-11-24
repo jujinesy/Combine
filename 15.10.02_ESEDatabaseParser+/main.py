@@ -1,4 +1,4 @@
-import ESEDatabaseParser
+﻿import ESEDatabaseParser
 
 import sys, os
 if __name__=="__main__":
@@ -11,5 +11,5 @@ if __name__=="__main__":
         sys.exit()
 
 
-    ESEDatabaseParser = ESEDatabaseParser.ESEDatabaseParser(sys.argv[1], sys.argv[2])
+    ESEDatabaseParser = ESEDatabaseParser.ESEDatabaseParser(sys.argv[1], sys.argv[2], True)
     ESEDatabaseParser.run()

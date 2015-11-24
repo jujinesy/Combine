@@ -1,11 +1,12 @@
-from Table import Table
+﻿from Table import Table
 from Column import Column
 from Page import Page
 
 class MsysObject :
-    def __init__(self, path, pageSize) :
+    def __init__(self, path, pageSize, swich) :
         self.path = path
         self.pageSize = pageSize
+        self.swich = swich
         self.init()
         
     def init(self):
@@ -18,8 +19,9 @@ class MsysObject :
         self.table.findNormalPageList()
         recordList = self.table.getNormalData()
         self.makeTables(recordList, "")
-        recordList = self.table.getAbnormalData()
-        self.makeTables(recordList, "Deleted_")
+        if self.swich == True :
+            recordList = self.table.getAbnormalData()
+            self.makeTables(recordList, "Deleted_")
         
     def getTables(self) :
         return self.tables

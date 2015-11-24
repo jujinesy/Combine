@@ -1,4 +1,4 @@
-import Error
+﻿import Error
 import sys
 from DatabaseHeader import DatabaseHeader
 from HexReader import HexReader
@@ -7,9 +7,10 @@ from MsysObject import MsysObject
 from WriteSqlite import WriteSqlite
 
 class ESEDatabaseParser :
-    def __init__(self, inputPath, outputPath) :
+    def __init__(self, inputPath, outputPath, swich) :
         self.inputPath = inputPath
         self.outputPath = outputPath
+        self.swich = swich
         self.init()
     
     def init(self) :
@@ -24,12 +25,13 @@ class ESEDatabaseParser :
         
     def run(self):
         self.parseDatabaseHeader()
-        self.msysObject = MsysObject(self.inputPath, self.pageSize)
+        self.msysObject = MsysObject(self.inputPath, self.pageSize, self.swich)
         self.tables = self.msysObject.getTables()
         self.parseNormalPageList()
         self.writeSqlite = WriteSqlite(self.outputPath)
         self.printDatabaseInfo()
-        self.parseAbnormalData()
+        if self.swich == True :
+            self.parseAbnormalData()
         self.parseNormalData()
         
         print "\n--------------------------------------------------------\n"
